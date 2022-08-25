@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datlichkhambenh">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Khám bệnh online"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Datlichkhambenh">
+        <service android:name=".SinchService"></service>
+        <activity android:name=".CallScreenActivity"/>
+        <activity android:name=".IncomingCallScreenActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true" />
+        <activity android:name=".VideocallActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DoimatkhauActivity" />
+        <activity android:name=".ThanhtoanActivity" />
+        <activity android:name=".HoadonActivity" />
+        <activity android:name=".LichsuBnActivity" />
+        <activity android:name=".BSChiTietPhieuNDActivity" />
+        <activity android:name=".NDChiTietPhieuActivity" />
+        <activity android:name=".BSChiTietPhieuActivity" />
+        <activity android:name=".MessageActivity" />
+        <activity android:name=".ListBacSiActivity" />
+        <activity android:name=".ListKhoaActivity" />
+        <activity android:name=".ChiTietPhieuKhamActivity" />
+        <activity android:name=".DatLichActivity" />
+        <activity android:name=".DatLichNhanhActivity" />
+        <activity android:name=".BangTinActivity" />
+        <activity android:name=".CapNhatThongTinActivity" />
+        <activity android:name=".CapNhatThongTinBSActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DangKiActivity" />
+        <activity android:name=".DangNhapActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+</manifest>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "369212002606",
+    "project_id": "datlichkhambenh-1c004",
+    "storage_bucket": "datlichkhambenh-1c004.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:369212002606:android:cc32262bfc6c88fe222abf",
+        "android_client_info": {
+          "package_name": "com.example.datlichkhambenh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "369212002606-hup0bu07pboq9ctavnl2cdkjt9lhcu04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXgua5QWkSkPrj8006s0DmR0xJlwJOUx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "369212002606-hup0bu07pboq9ctavnl2cdkjt9lhcu04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/a/New folder/app/src/main/res/layout/activity_cap_nhat_thong_tin.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/activity_hoadon.xml" value="0.22" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/activity_thanhtoan.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/activity_videocall.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_chi_tiet_phieu.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_chi_tiet_phieu_nd.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_ls_bn.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_ls_nd.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_bs_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_nd_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/fragment_nd_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/a/New folder/app/src/main/res/layout/item_lich_su_kham_bn.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/drawable/ic__add_photo.xml" value="0.175" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_bang_tin.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_cap_nhat_thong_tin.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_cap_nhat_thong_tin_bs.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_chi_tiet_phieu_kham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_dang_ki.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_dang_nhap.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_dat_lich.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_thanhtoan.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/activity_videocall.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/callcreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_chi_tiet_phieu.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_chi_tiet_phieu_nd.xml" value="0.22" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_history1.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_lich_kham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_ls_bn.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_bs_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_dang_kham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_chi_tiet_phieu.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_dat_lich.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_ds_bac_si.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_ds_benh_vien.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_ds_khoa.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_history1.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_phongkham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/fragment_nd_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_bac_si.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_bac_si1.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_benh_vien.xml" value="0.22" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_lich_su_kham1.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_phieu_kham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_phieu_kham1.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_phong_kham.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_thuoc_bs.xml" value="0.20416666666666666" />
+        <entry key="..\:/zz/New folder/app/src/main/res/layout/item_thuoc_nd.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

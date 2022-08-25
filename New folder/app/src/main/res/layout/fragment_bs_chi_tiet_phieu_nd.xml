@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NDChiTietPhieuActivity"
+    android:background="@drawable/src_assets_images_bg">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/primaryTextColor"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Chi tiết phiếu khám"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDong_ChiTietPhieund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="280dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Đóng"
+        android:textSize="16sp"
+        app:backgroundTint="#00BCD4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/ic_doctor" />
+
+    <TextView
+        android:id="@+id/tvTenBs_datLichNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Bác sĩ: "
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/tvStatus_chitietNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trạng thái: Đang chờ"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/tvTenBs_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvTenBs_datLichNd"/>
+
+    <TextView
+        android:id="@+id/tvMoneyBs_datLichNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phi kham:"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/tvStatus_chitietNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatus_chitietNd"/>
+
+    <TextView
+        android:id="@+id/tvChuandoan_datLichNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Chuẩn đoán:"
+        android:layout_marginTop="28dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvMoneyBs_datLichNd" />
+
+    <TextView
+        android:id="@+id/tv_chuandoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="26dp"
+        android:text="chuandoan"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tvChuandoan_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvMoneyBs_datLichNd" />
+
+    <TextView
+        android:id="@+id/tv_chidinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="chidinh"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tvChidinh_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chuandoan" />
+
+    <TextView
+        android:id="@+id/tvChidinh_datLichNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Chỉ định:"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="23dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvChuandoan_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvChuandoan_datLichNd" />
+
+    <TextView
+        android:id="@+id/tv_Dando"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="Dặn dò của bác sĩ"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/tvDando_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tv_chidinh" />
+
+    <TextView
+        android:id="@+id/tvDando_datLichNd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Dặn dò:"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvChidinh_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvChidinh_datLichNd" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Toa thuốc:"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvChuandoan_datLichNd"
+        app:layout_constraintTop_toBottomOf="@+id/tvChuandoan_datLichNd" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcToathuoc"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="36dp"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <ImageView
+        android:id="@+id/imgupload"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rcToathuoc"
+        app:srcCompat="@drawable/ic__add_photo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
